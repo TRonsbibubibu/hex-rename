@@ -1,0 +1,27 @@
+{
+  "name": "hex-rename",
+  "version": "1.0.0",
+  "description": "rename file by hex",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TRonsbibubibu/hex-rename.git"
+  },
+  "keywords": [
+    "hex",
+    "rename",
+    "md5"
+  ],
+  ".bin": {
+    "hex-rename": "app.js"
+  },
+  "author": "tronsbibubibu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TRonsbibubibu/hex-rename/issues"
+  },
+  "homepage": "https://github.com/TRonsbibubibu/hex-rename#readme"
+}
