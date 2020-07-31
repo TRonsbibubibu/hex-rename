@@ -1,6 +1,6 @@
 {
   "name": "hex-rename",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "rename file by hex",
   "main": "app.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "rename",
     "md5"
   ],
-  ".bin": {
+  "bin": {
     "hex-rename": "app.js"
   },
   "author": "tronsbibubibu",
@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/TRonsbibubibu/hex-rename/issues"
   },
-  "homepage": "https://github.com/TRonsbibubibu/hex-rename#readme"
+  "homepage": "https://github.com/TRonsbibubibu/hex-rename#readme",
+  "dependencies": {
+    "imghash": "^0.0.7",
+    "yargs": "^13.3.0"
+  }
 }
